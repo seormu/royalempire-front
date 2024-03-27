@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    padding: 50px;
+}
+
+#sidebar {
+    background-color: #080808;
+}
+
+.mensaje-error-input {
+    padding-left: 10px;
+    color: #de8500 !important;
+    font-size: 15px
+}
+
+.container-scroller {
+    background-color: #080808;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.formas-pago {
+    cursor: pointer;
+}
+.contenedor-formas-pago {
+    height: 100vh;
+}

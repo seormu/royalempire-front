@@ -1,0 +1,6 @@
+.page-container {
+
+    grid-template-columns: 1fr 120px !important;
+    grid-gap: 0px !important;
+
+}

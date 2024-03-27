@@ -1,0 +1,96 @@
+<nav class="sidebar sidebar-offcanvas" id="sidebar">
+    <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+
+        <a class="sidebar-brand brand-logo" href=""><img src="assets/admin/images/logo1.png" alt="logo" /></a>
+        <a class="sidebar-brand brand-logo-mini" href=""><img src="assets/admin/images/favicon.png" alt="logo" /></a>
+    </div>
+    <ul class="nav">
+        <li class="nav-item nav-category">
+            <span class="nav-link">Panel</span>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <span class="menu-icon">
+                    <i class="bi bi-credit-card-2-back"></i>
+                </span>
+                <span class="menu-title">Fondos</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"> <a class="nav-link" [routerLink]="['/deposito']"
+                            routerLinkActive="router-link-active">Depósito</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#" type="button" data-bs-toggle="modal"
+                            data-bs-target="#registerModal">Retiro</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#basic" aria-expanded="false" aria-controls="basic">
+                <span class="menu-icon">
+                    <i class="bi bi-person"></i>
+                </span>
+                <span class="menu-title">Mi cuenta</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="basic">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"> <a class="nav-link" href="pages/ui-features/informacion.php">Informacion
+                            personal</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#basi" aria-expanded="false" aria-controls="basi">
+                <span class="menu-icon">
+                    <i class="bi bi-info-circle"></i>
+                </span>
+                <span class="menu-title">Ayuda</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="basi">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"> <a class="nav-link" href="../../preguntas.html" target="_blank">Preguntas
+                            frecuentes</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="../../about-us.html" target="_blank">Acerca de
+                            nosotros</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="../../contacto.html" target="_blank">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#bas" aria-expanded="false" aria-controls="bas">
+                <span class="menu-icon">
+                    <i class="bi bi-person-badge-fill"></i>
+                </span>
+                <span class="menu-title">Gerente personal</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="bas">
+                <ul class="nav flex-column sub-menu">
+                    <div class="d-flex">
+                        <i class="telegram-title pe-1 mt-1"></i>
+                        <li class="nav-item"> <a class="nav-link" target="_blank"
+                                href="https://t.me/RoyalEmpiretraderbot?start=eyJ1Ijo4NjE1MDM3fQ">Telegram</a></li>
+                    </div>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+                <span class="menu-icon">
+                    <i class="bi bi-cash-coin"></i>
+                </span>
+                <span class="menu-title">Plataformas</span>
+                <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="auth">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item"> <a class="nav-link" [routerLink]="['/web-trader']">
+                            WebTrader </a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</nav>
