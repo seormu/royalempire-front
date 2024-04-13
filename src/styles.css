@@ -35,6 +35,16 @@ body {
 .formas-pago {
     cursor: pointer;
 }
-.contenedor-formas-pago {
+/*.contenedor-formas-pago {
     height: 100vh;
+}
+.pagos-card{
+    background-color: #fff;
+}
+
+.text-black{
+    color: #080808;
+}*/
+.form-deposito{
+    color: #fff !important;
 }

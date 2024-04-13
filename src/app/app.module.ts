@@ -14,7 +14,8 @@ import { NotfoundComponent } from './componentes/shared/notfound/notfound.compon
 import { DepositoComponent } from './componentes/deposito/deposito.component';
 import { WebTraderComponent } from './componentes/web-trader/web-trader.component';
 import { MatCardModule } from '@angular/material/card';
-import { HighchartsChartModule } from 'highcharts-angular';
+import { DepositoPendienteComponent } from './componentes/user/deposito-pendiente/deposito-pendiente.component';
+import { DepositoExitosoComponent } from './componentes/user/deposito-exitoso/deposito-exitoso.component';
 
 
 
@@ -27,7 +28,9 @@ import { HighchartsChartModule } from 'highcharts-angular';
     HeaderComponent,
     NotfoundComponent,
     DepositoComponent,
-    WebTraderComponent
+    WebTraderComponent,
+    DepositoPendienteComponent,
+    DepositoExitosoComponent
   ],
   imports: [
     BrowserModule,
@@ -36,8 +39,6 @@ import { HighchartsChartModule } from 'highcharts-angular';
     CommonModule,
     HttpClientModule,
     MatCardModule,
-    HighchartsChartModule,
-    HighchartsChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
